@@ -3,27 +3,25 @@ source 'https://rubygems.org'
 
 ruby '2.0.0'
 
+gem 'bootstrap-sass', '2.3.2.0'
+ 
+gem 'sprockets', '2.11.0'
+
 #Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 <<<<<<< HEAD
 gem 'rails', '4.1.1'
 
 group :production do
   gem 'pg', '0.17.1'
-=======
-gem 'rails', '4.0.2'
-
-group :production do
-  gem 'pg', '0.15.1'
->>>>>>> db454bf2f8346df658489c6d64d39301c8838c6e
   gem 'rails_12factor', '0.0.2'
 end
 
 # Use sqlite3 as the database for Active Record
-group :development do
+ group :development, :test do
   gem 'sqlite3', '1.3.8'
-    gem 'rspec-rails', '2.13.1'
-
-end
+  gem 'rspec-rails', '2.13.1'
+ end
+  
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
@@ -44,11 +42,7 @@ gem 'coffee-rails', '~> 4.0.0'
 # gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
-<<<<<<< HEAD
 gem 'jquery-rails' 
-=======
-gem 'jquery-rails'
->>>>>>> db454bf2f8346df658489c6d64d39301c8838c6e
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
