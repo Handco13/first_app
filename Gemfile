@@ -20,10 +20,10 @@ group :development :test do
 end
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.0'
+gem 'sass-rails', '~> 4.0.3'
 
 # Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '>= 2.1.1'
+gem 'uglifier', '>= 2.5.0'
 
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '~> 4.0.1'
@@ -40,7 +40,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 1.2'
+gem 'jbuilder', '~> 1.5.3'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
