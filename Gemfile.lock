@@ -56,7 +56,8 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 0.3.37)
     arel (4.0.2)
-    atomic (1.1.15)
+    bootstrap-sass (2.3.2.0)
+      sass (~> 3.2)
     builder (3.1.4)
 >>>>>>> db454bf2f8346df658489c6d64d39301c8838c6e
     coffee-rails (4.0.1)
@@ -106,7 +107,7 @@ GEM
       sprockets-rails (~> 2.0)
 =======
     minitest (4.7.5)
-    multi_json (1.9.0)
+    multi_json (1.9.2)
     pg (0.15.1)
     polyglot (0.3.4)
     rack (1.5.2)
@@ -139,8 +140,12 @@ GEM
       activesupport (= 4.0.2)
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
+<<<<<<< HEAD
     rake (10.1.1)
 >>>>>>> db454bf2f8346df658489c6d64d39301c8838c6e
+=======
+    rake (10.3.1)
+>>>>>>> 850b7b90ab37f005a61aff790e1ea8f35079c22f
     rdoc (4.1.1)
       json (~> 1.4)
     rspec-core (2.13.1)
@@ -155,6 +160,7 @@ GEM
       rspec-expectations (~> 2.13.0)
       rspec-mocks (~> 2.13.0)
 <<<<<<< HEAD
+<<<<<<< HEAD
     sass (3.2.19)
     sass-rails (4.0.3)
       railties (>= 4.0.0, < 5.0)
@@ -168,14 +174,23 @@ GEM
 =======
     sass (3.3.2)
     sass-rails (4.0.1)
+=======
+    sass (3.2.19)
+    sass-rails (4.0.3)
+>>>>>>> 850b7b90ab37f005a61aff790e1ea8f35079c22f
       railties (>= 4.0.0, < 5.0)
-      sass (>= 3.1.10)
-      sprockets-rails (~> 2.0.0)
+      sass (~> 3.2.0)
+      sprockets (~> 2.8, <= 2.11.0)
+      sprockets-rails (~> 2.0)
     sdoc (0.4.0)
       json (~> 1.8)
       rdoc (~> 4.0, < 5.0)
+<<<<<<< HEAD
     sprockets (2.12.0)
 >>>>>>> db454bf2f8346df658489c6d64d39301c8838c6e
+=======
+    sprockets (2.11.0)
+>>>>>>> 850b7b90ab37f005a61aff790e1ea8f35079c22f
       hike (~> 1.2)
       multi_json (~> 1.0)
       rack (~> 1.0)
@@ -190,6 +205,7 @@ GEM
       sprockets (~> 2.8)
     sqlite3 (1.3.8)
 <<<<<<< HEAD
+<<<<<<< HEAD
     thor (0.19.1)
     thread_safe (0.3.4)
 =======
@@ -197,10 +213,15 @@ GEM
     thread_safe (0.2.0)
       atomic (>= 1.1.7, < 2)
 >>>>>>> db454bf2f8346df658489c6d64d39301c8838c6e
+=======
+    thor (0.19.1)
+    thread_safe (0.3.3)
+>>>>>>> 850b7b90ab37f005a61aff790e1ea8f35079c22f
     tilt (1.4.1)
     treetop (1.4.15)
       polyglot
       polyglot (>= 0.3.1)
+<<<<<<< HEAD
 <<<<<<< HEAD
     turbolinks (2.2.2)
       coffee-rails
@@ -213,6 +234,12 @@ GEM
     tzinfo (0.3.39)
     uglifier (2.4.0)
 >>>>>>> db454bf2f8346df658489c6d64d39301c8838c6e
+=======
+    turbolinks (2.2.2)
+      coffee-rails
+    tzinfo (0.3.39)
+    uglifier (2.5.0)
+>>>>>>> 850b7b90ab37f005a61aff790e1ea8f35079c22f
       execjs (>= 0.3.0)
       json (>= 1.8.0)
 
@@ -221,26 +248,19 @@ PLATFORMS
 
 DEPENDENCIES
 <<<<<<< HEAD
+<<<<<<< HEAD
+  bootstrap-sass (= 2.3.2.0)
   coffee-rails (~> 4.0.1)
-  jbuilder (~> 1.2)
+  jbuilder (~> 1.5.3)
   jquery-rails
   pg (= 0.17.1)
   rails (= 4.1.1)
-=======
-  coffee-rails (~> 4.0.0)
-  jbuilder (~> 1.2)
-  jquery-rails
-  pg (= 0.15.1)
-  rails (= 4.0.2)
->>>>>>> db454bf2f8346df658489c6d64d39301c8838c6e
   rails_12factor (= 0.0.2)
   rspec-rails (= 2.13.1)
-  sass-rails (~> 4.0.0)
+  sass-rails (~> 4.0.3)
   sdoc
+  sprockets (= 2.12.0)
   sqlite3 (= 1.3.8)
   turbolinks
-<<<<<<< HEAD
-  uglifier (>= 2.1.1)
-=======
-  uglifier (>= 1.3.0)
->>>>>>> db454bf2f8346df658489c6d64d39301c8838c6e
+  uglifier (>= 2.4.0)
+

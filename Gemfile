@@ -4,11 +4,10 @@ source 'https://rubygems.org'
 ruby '2.0.0'
 
 gem 'bootstrap-sass', '2.3.2.0'
- 
-gem 'sprockets', '2.11.0'
+
+gem 'sprockets', '2.12.0'
 
 #Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-<<<<<<< HEAD
 gem 'rails', '4.1.1'
 
 group :production do
@@ -23,20 +22,15 @@ end
  end
   
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.0'
+gem 'sass-rails', '~> 4.0.3'
 
 # Use Uglifier as compressor for JavaScript assets
-<<<<<<< HEAD
-gem 'uglifier', '>= 2.1.1'
+gem 'uglifier', '>= 2.4.0'
 
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '~> 4.0.1'
-=======
-gem 'uglifier', '>= 1.3.0'
 
-# Use CoffeeScript for .js.coffee assets and views
-gem 'coffee-rails', '~> 4.0.0'
->>>>>>> db454bf2f8346df658489c6d64d39301c8838c6e
+gem 'uglifier', '>= 2.5.0'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
@@ -48,7 +42,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 1.2'
+gem 'jbuilder', '~> 1.5.3'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
